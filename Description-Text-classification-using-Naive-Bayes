@@ -1,0 +1,12 @@
+This project implements a text classification model using the Multinomial Naive Bayes algorithm provided in Scikit-learn. 
+The objective was to categorize text documents into predefined classes by leveraging probabilistic learning techniques.
+Project Workflow:
+Data Collection & Preprocessing – Gathered a labeled text dataset (e.g., news articles, spam/ham messages). 
+Applied preprocessing techniques including tokenization, stopword removal, stemming/lemmatization, and vectorization using TF-IDF / CountVectorizer.
+Model Development – Implemented Multinomial Naive Bayes from Scikit-learn, a popular algorithm for discrete features like word counts.
+Training & Testing – Split the dataset into training and test sets, trained the model, and tuned hyperparameters (e.g., smoothing parameter α).
+Evaluation – Evaluated performance using accuracy, precision, recall, F1-score, and confusion matrix. Compared results with other classifiers such as Logistic Regression or SVM.
+Outcome:
+Achieved high classification accuracy on the dataset (e.g., >90% in spam detection).
+Demonstrated the efficiency of Multinomial Naive Bayes for text-based tasks like spam filtering, sentiment analysis, and topic categorization.
+Validated that feature extraction with TF-IDF significantly improved performance.
